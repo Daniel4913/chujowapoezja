@@ -1,0 +1,70 @@
+.navigation {
+	display: flex;
+	flex: 0 0 60%;
+	align-items: center;
+	justify-content: center;
+	&__link {
+		margin: 5rem 0 3rem 0;
+		text-decoration: none;
+		color: inherit;
+		margin: 0px 2rem 0px 2rem;
+	}
+}
+
+.main-content {
+}
+
+.content-view {
+	background-color: antiquewhite;
+	width: 60rem;
+	padding: 2rem;
+
+	&__belka {
+		background-color: olive;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 4rem;
+		&__author {
+			display: flex;
+			align-items: center;
+
+			&--img {
+				width: 2rem;
+				height: 2rem;
+				background-color: white;
+				border-radius: 50%;
+				margin: 1rem 1rem;
+			}
+			&--username {
+			}
+		}
+
+		&--hashtags {
+			margin: 0.5rem 0.5rem;
+		}
+	}
+	.poem {
+		padding: 2rem;
+	}
+}
+
+.interactions {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	> div {
+		margin: 1rem;
+	}
+	&__save {
+	}
+	&__edit {
+	}
+	&__reaction {
+	}
+	&__share {
+	}
+	&__comment {
+	}
+}
